@@ -724,12 +724,12 @@ ul {
     width: 42px;
   }
   .header__title {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 24px;
+    line-height: 26px;
   }
   .header__subtitle {
-    font-size: 8px;
-    line-height: 9px;
+    font-size: 16px;
+    line-height: 20px;
   }
   .header__right {
     display: none;
@@ -828,7 +828,16 @@ ul {
 }
 
 
-
+@media (max-width: 510px) {
+  .header__title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .header__subtitle {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
 
 @media (max-width: 400px) {
   .rinh__footer-content{
@@ -853,6 +862,14 @@ ul {
   }
   .ol__requirements{
     margin-left: 0px;
+  }
+  .header__title {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .header__subtitle {
+    font-size: 8px;
+    line-height: 9px;
   }
 }
 
